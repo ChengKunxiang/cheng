@@ -1,0 +1,13 @@
+Source:,D:\PCB\PCB\PCB\PRO1\UNO\UNO1\UNO1.kicad_sch,,,,,,
+Date:,2023/12/6 18:59,,,,,,
+Tool:,Eeschema 7.0.8,,,,,,
+Generator:,E:\7.0\bin\scripting\plugins/bom_csv_grouped_by_value_with_fp.py,,,,,,
+Component Count:,9,,,,,,
+Ref,Qnty,Value,Cmp name,Footprint,Description,Vendor,DNP
+battery1,2,7V,power_1,,,,
+C1,1,470uF,C,Capacitor_SMD:C_0201_0603Metric,Unpolarized capacitor,,
+L298N1,1,~,L298N,,,,
+"motor1, motor2",2,~,motor,,,,
+R1,1,12¦¸,R,Resistor_SMD:R_0201_0603Metric,Resistor,,
+"R2, R3",2,20k,R,Resistor_SMD:R_0201_0603Metric,Resistor,,
+Arduino,1,,UNO,,,,

@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>D:\PCB\PCB\PCB\PRO1\UNO\UNO1\UNO1.kicad_sch</source>
+    <date>2023/12/6 18:59:05</date>
+    <tool>Eeschema 7.0.8</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>UNO1.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="battery1">
+      <value>~</value>
+      <libsource lib="" part="power_1" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="UNO1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>36fd693b-c1c8-441d-b1ec-4e8ce2c2c2b1</tstamps>
+    </comp>
+    <comp ref="C1">
+      <value>C</value>
+      <footprint>Capacitor_SMD:C_0201_0603Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="UNO1.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9df36039-36fe-42f5-a3fa-d517cdb57f71</tstamps>
+    </comp>
+    <comp ref="L298N1">
+      <value>~</value>
+      <libsource lib="My_Library" part="L298N" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="UNO1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>63aa9d67-f733-438d-b8e9-78720fa1387b</tstamps>
+    </comp>
+    <comp ref="motor1">
+      <value>~</value>
+      <libsource lib="My_Library" part="motor" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="UNO1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>06f59ba0-a960-4b10-9158-e3d185dcb1e8</tstamps>
+    </comp>
+    <comp ref="motor2">
+      <value>~</value>
+      <libsource lib="My_Library" part="motor" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="UNO1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>048816d4-88d2-4df6-aee4-2682b299c9cf</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>12 Ω</value>
+      <footprint>Resistor_SMD:R_0201_0603Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="UNO1.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>70fcb12c-204e-4d61-b445-185129a81290</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>20k</value>
+      <footprint>Resistor_SMD:R_0201_0603Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="UNO1.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>acb76164-9f08-46bc-b450-2ce91c599aab</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>20k</value>
+      <footprint>Resistor_SMD:R_0201_0603Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="UNO1.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cf86fead-eb76-420c-ad64-9aa71141b78c</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>~</value>
+      <libsource lib="My_Library" part="UNO" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="UNO1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a5014865-d6b2-4301-b6c9-9d52406af49c</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="" part="power_1">
+      <fields>
+        <field name="Reference">U</field>
+      </fields>
+      <pins>
+        <pin num="1" name="12V" type="power_in"/>
+        <pin num="2" name="GND" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="My_Library" part="L298N">
+      <fields>
+        <field name="Reference">L298N</field>
+      </fields>
+      <pins>
+        <pin num="" name="12V" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="My_Library" part="UNO">
+      <fields>
+        <field name="Reference">U</field>
+      </fields>
+      <pins>
+        <pin num="" name="GND" type="power_out"/>
+        <pin num="2" name="OUT1" type="power_in"/>
+        <pin num="3" name="PWM1" type="output"/>
+        <pin num="4" name="OUT2" type="power_in"/>
+        <pin num="5" name="PWM2" type="output"/>
+        <pin num="6" name="PWM3" type="output"/>
+        <pin num="7" name="OUT3" type="power_in"/>
+        <pin num="8" name="OUT4" type="power_in"/>
+        <pin num="9" name="PWM4" type="output"/>
+        <pin num="10" name="PWM5" type="output"/>
+        <pin num="11" name="ADC0" type="output"/>
+      </pins>
+    </libpart>
+    <libpart lib="My_Library" part="motor">
+      <fields>
+        <field name="Reference">U</field>
+      </fields>
+      <pins>
+        <pin num="1" name="IN1" type="power_out"/>
+        <pin num="2" name="IN2" type="power_in"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Device">
+      <uri>E:\7.0\share\kicad\symbols\/Device.kicad_sym</uri>
+    </library>
+    <library logical="My_Library">
+      <uri>C:/Users/15749/Documents/KiCad/7.0/symbols/My_Library.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/ADC">
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="U1" pin="11" pinfunction="ADC0" pintype="output"/>
+    </net>
+    <net code="2" name="/direction_A1">
+      <node ref="L298N1" pin="" pinfunction="IN1" pintype="power_in"/>
+      <node ref="U1" pin="2" pinfunction="OUT1" pintype="power_in"/>
+    </net>
+    <net code="3" name="/direction_A2">
+      <node ref="L298N1" pin="" pinfunction="IN2" pintype="power_in"/>
+      <node ref="U1" pin="4" pinfunction="OUT2" pintype="power_in"/>
+    </net>
+    <net code="4" name="/direction_B1">
+      <node ref="L298N1" pin="" pinfunction="IN3" pintype="power_in"/>
+      <node ref="U1" pin="7" pinfunction="OUT3" pintype="power_in"/>
+    </net>
+    <net code="5" name="/direction_B2">
+      <node ref="L298N1" pin="" pinfunction="IN4" pintype="power_in"/>
+      <node ref="U1" pin="8" pinfunction="OUT4" pintype="power_in"/>
+    </net>
+    <net code="6" name="/motorA">
+      <node ref="L298N1" pin="" pinfunction="ENA" pintype="power_in"/>
+      <node ref="U1" pin="3" pinfunction="PWM1" pintype="output"/>
+    </net>
+    <net code="7" name="/motorB">
+      <node ref="L298N1" pin="" pinfunction="ENB" pintype="power_in"/>
+      <node ref="U1" pin="5" pinfunction="PWM2" pintype="output"/>
+    </net>
+    <net code="8" name="/servo1">
+      <node ref="U1" pin="6" pinfunction="PWM3" pintype="output"/>
+    </net>
+    <net code="9" name="/servo2">
+      <node ref="U1" pin="9" pinfunction="PWM4" pintype="output"/>
+    </net>
+    <net code="10" name="/servo3">
+      <node ref="U1" pin="10" pinfunction="PWM5" pintype="output"/>
+    </net>
+    <net code="11" name="Net-(L298N1-12V)">
+      <node ref="L298N1" pin="" pinfunction="12V" pintype="power_in"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+    </net>
+    <net code="12" name="Net-(L298N1-GND)">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="L298N1" pin="" pinfunction="GND" pintype="power_in"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="U1" pin="" pinfunction="GND" pintype="power_out"/>
+      <node ref="battery1" pin="2" pinfunction="GND" pintype="power_out"/>
+    </net>
+    <net code="13" name="Net-(L298N1-OUT1)">
+      <node ref="L298N1" pin="" pinfunction="OUT1" pintype="power_in"/>
+      <node ref="motor1" pin="1" pinfunction="IN1" pintype="power_out"/>
+    </net>
+    <net code="14" name="Net-(L298N1-OUT2)">
+      <node ref="L298N1" pin="" pinfunction="OUT2" pintype="power_in"/>
+      <node ref="motor1" pin="2" pinfunction="IN2" pintype="power_in"/>
+    </net>
+    <net code="15" name="Net-(L298N1-OUT3)">
+      <node ref="L298N1" pin="" pinfunction="OUT3" pintype="power_in"/>
+      <node ref="motor2" pin="1" pinfunction="IN1" pintype="power_out"/>
+    </net>
+    <net code="16" name="Net-(L298N1-OUT4)">
+      <node ref="L298N1" pin="" pinfunction="OUT4" pintype="power_in"/>
+      <node ref="motor2" pin="2" pinfunction="IN2" pintype="power_in"/>
+    </net>
+    <net code="17" name="Net-(U1-input)">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="U1" pin="" pinfunction="input" pintype="power_in"/>
+      <node ref="battery1" pin="1" pinfunction="12V" pintype="power_in"/>
+    </net>
+    <net code="18" name="unconnected-(L298N1-5V-Pad)">
+      <node ref="L298N1" pin="" pinfunction="5V" pintype="power_in+no_connect"/>
+    </net>
+  </nets>
+</export>
